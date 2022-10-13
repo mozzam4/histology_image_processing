@@ -1,0 +1,11 @@
+pandas~=1.4.3
+pillow~=9.2.0
+numpy~=1.21.5
+itk~=5.2.1.post1
+scikit-image~=0.19.2
+scikit-learn~=1.1.1
+colorthief~=0.2.1
+scipy~=1.9.1
+matplotlib~=3.2.2
+opencv-python~=4.6.0.66
+torchvision~=0.13.1
