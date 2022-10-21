@@ -4,6 +4,9 @@ import numpy as np
 from skimage import io, feature, color
 import itk
 import os
+# Normlaise all the patches based on reference image. The code is incomplete.
+
+
 reference_image_filename = r'/home/mozzam/Downloads/Ref.png'
 reference_image = itk.imread(reference_image_filename)
 #reference_reader = itk.ImageFileReader.New(FileName=reference_image_filename)

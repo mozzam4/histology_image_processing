@@ -7,8 +7,11 @@ from sklearn import cluster
 import numpy as np
 import plotly.express as px
 
+# This file is currently incomplete. Tried here to cluster the colors of each patch in the image
+# in attempt to isolate the bacteria and air bubble color clusters
+
 # Read image and print dimensions
-image = img.imread(r'C:\Users\mozza\Documents\test\patches\R021A_reference_clean\ 2819.jpg')
+image = img.imread(r'/home/mozzam/Documents/Few_patches/selected_patches_small/R108A.ndpi\1.jpg')
 print(image.shape)
 
 # Store RGB values of all pixels in lists r, g and b

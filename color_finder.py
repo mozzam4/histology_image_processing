@@ -2,7 +2,8 @@ import os
 import json
 from colorthief import ColorThief
 # The patch directory must contain individual folders of each image containing patches of that image
-patch_dir = r'C:\Users\mozza\Documents\test\patches'
+# To find the  dominant color in each patch
+patch_dir = r'/home/mozzam/Documents/Few_patches/selected_patches_small'
 
 
 def create_json(input_path):

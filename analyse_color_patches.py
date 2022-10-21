@@ -4,7 +4,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import cluster
 import random
-with open(r'C:\Users\mozza\Documents\test\M200A2 - 2021-03-15 13.07.52.json', 'r') as final:
+
+# Analyise the color patches json file created by color_finder.py As of now just plot the colors
+# in all the patches of the image
+
+with open(r'/home/mozzam/Documents/Few_patches\M143A1_issues.json', 'r') as final:
     patches_colors = json.load(final)
 
 red = []
